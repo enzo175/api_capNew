@@ -49,6 +49,7 @@ input, #findair-btn {
 .result-wrapper {
     font-family: 'Saira Stencil One', cursive;
     border-top: 0px;
+    border-radius: 10px 10px;
     border-style: ridge;
     border-color: black;
     border-width: 3px;

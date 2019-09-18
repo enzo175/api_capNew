@@ -91,7 +91,7 @@ function formEffect(){
     })
 }
 
-function customStyle(){
+/*function customStyle(){
     $('.anchor-scroll').anchorScroll({
         scrollSpeed: 800, // scroll speed
         offsetTop: 0, // offset for fixed top bars (defaults to 0)
@@ -102,7 +102,7 @@ function customStyle(){
           // callback on scroll end
         }
     });
-}
+}*/
 function sliding(){
     $(".container").animate({width: "250px"}, 2000)
     $('form').submit(event =>{

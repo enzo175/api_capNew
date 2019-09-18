@@ -1,3 +1,7 @@
+// not in use
+
+
+
 /*!
  * jQuery.anchorScroll jQuery Plugin v1.0
  *
@@ -6,7 +10,7 @@
  * Licensed under the MIT license.
  */
 ;
-(function($, window, document, undefined) {
+/*(function($, window, document, undefined) {
     'use strict';
     $(".anchorScroll") = function(el, options) {
         var base = this;
@@ -62,4 +66,4 @@
         });
     };
 
-})(jQuery, window, document);
+})(jQuery, window, document);*/
