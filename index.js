@@ -90,28 +90,21 @@ function formEffect(){
         $(".js-wrapper").fadeIn("slow");
     })
 }
-
-/*function customStyle(){
-    $('.anchor-scroll').anchorScroll({
-        scrollSpeed: 800, // scroll speed
-        offsetTop: 0, // offset for fixed top bars (defaults to 0)
-        onScroll: function () { 
-          // callback on scroll start
-        },
-        scrollEnd: function () { 
-          // callback on scroll end
-        }
-    });
-}*/
+    
 function sliding(){
     $(".container").animate({width: "250px"}, 2000)
     $('form').submit(event =>{
     $(".result-wrapper").animate({width: "250px"}, 2000)
-    });
+    $('.hidden').fadeIn(2000)
+    if (window.innerWidth > 700){
+    $('canvas').animate({marginTop: "-=500px"}, 4000)
+    }
+    })
 }
 
 
 function watchForm() {
+   // barChart();
     sliding();
     $('form').submit(event =>{
         event.preventDefault()

@@ -17,7 +17,7 @@
   <header class="js-header">
     <ul id="navbar">
       <li>Home page</li>
-      <li>Get Your Air Quality Forecast</li>
+      <li>Individual Particles</li>
     </ul>
   </header>
     <section class='container'>
@@ -34,8 +34,11 @@
       <div id="js-wordResponse"></div>
     </div>
     <div id="js-forecast"></div>
+  <div id="js-chart" class="hidden"><canvas id="myChart" height="300" width="300"></canvas></div>
   </main>
   <!--<script src="jqueryStyle.js"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+  <script src="chart.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="index.js"></script>
 </body>

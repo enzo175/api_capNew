@@ -64,31 +64,30 @@ input, #findair-btn {
 .result-wrapper {
     padding-top: 0px;
 }
-/*@keyframes slideInFromLeft {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}*/
 h1 {
     text-shadow: 4px 4px 4px gray;
 }
 .container {
-    /*animation: 2s ease-out 0s 1 slideInFromLeft;
-  
-    background: none;
-    padding: 30px;*/
-
-    
     margin-left: 25px;
     padding: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
-
-  
+#js-chart {
+    /*height: 70%;
+    width: 300px;
+    padding-right: 50PX;
+    float: right;*/
+}
+.hidden {
+    display: none;
+}
+@media screen and (min-height: 760px){
+    #js-chart {
+        width: 500px;
+        padding-right: 50PX;
+        float: right;
+    }
+}
