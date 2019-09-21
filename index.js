@@ -46,11 +46,10 @@ function displayResults(responseJson){
     }
         else if (aqiNum >= 100, aqiNum < 150) {
 
-        return $("#js-wordResponse").html("Unhealthy For Sensative Groups")
-
+        return $("#js-wordResponse").html("Unhealthy")
     }   else {
 
-        return $("#js-wordResponse").html('Just Stay Inside Today')
+        return $("#js-wordResponse").html('Very Unhealthy')
     } 
     }
 }
@@ -97,7 +96,7 @@ function sliding(){
     $(".result-wrapper").animate({width: "250px"}, 2000)
     $('.hidden').fadeIn(2000)
     if (window.innerWidth > 700){
-    $('canvas').animate({marginTop: "-=500px"}, 4000)
+        $('canvas').animate({marginTop: "-=500px"}, 4000,);
     }
     })
 }
