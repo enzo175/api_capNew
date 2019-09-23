@@ -22,6 +22,13 @@ input, #findair-btn {
 #findair-btn:hover {
    text-shadow: 0px 0px 5px blue;
 }
+#findDetailed-btn{
+    background:grey;
+    box-shadow: 3px 3px 3px gray;
+}
+#findDetailed-btn:hover{
+    text-shadow: 0px 0px 5px blue;
+}
 #navbar {
     list-style: none;
     display: flex;
@@ -30,6 +37,9 @@ input, #findair-btn {
     background: black;
     color: white;
     margin: 0px;
+}
+a {
+    color: inherit;
 }
 
 #navbar li {
