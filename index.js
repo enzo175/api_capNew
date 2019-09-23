@@ -109,6 +109,7 @@ function sliding() {
         $(".result-wrapper").animate({ width: "250px" }, 2000)
         $('.hidden').fadeIn(2000)
         if (window.innerWidth > 700) {
+            // TODO animate with CSS transitions https://repl.it/@TudorIlisoi/CSSTransitions
             // $('canvas').animate({ marginTop: "-=500px" }, 4000);
         }
     })
