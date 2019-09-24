@@ -38,13 +38,6 @@ function displayResults(responseJson) {
         $('#js-aqiResults').append(
             `<p>${responseJson.data[i].aqi}</p>`)
         let aqiNum = `${responseJson.data[i].aqi}`
-        /*for (let i = 0; i < responseJson.data.length; i++) {
-            const infoObj = responseJson.data[i]
-            for (let propName in infoObj) {
-                $('#js-aqiResults').append(`
-                    <p><span>${propName}</span> ${infoObj[propName]}</p>`
-                )
-            }*/
         $("#js-wordResponse").empty()
         if (aqiNum <= 50) {
             barIndex = 0
@@ -75,8 +68,6 @@ function getAir(query) {
     const params = {
         postal_code: query,
         key: apiKey,
-        //language: 'en'
-        //"content-type": "application/json; charset=utf-8"
     };
 
     const queryString = formatQueryParams(params)
@@ -99,13 +90,14 @@ function getAir(query) {
             $('#js-error').text(`something went wrong: ${err.message}`);
         })
 }
+//show the chart.js
 function formEffect() {
     $("form").submit(event => {
         event.preventDefault();
         $(".js-wrapper").fadeIn("slow");
     })
 }
-
+// jquery animations
 function sliding() {
     $(".container").animate({ width: "250px" }, 2000)
     let flag = true;
@@ -114,13 +106,12 @@ function sliding() {
         $('.hidden').fadeIn(2000)
         if (flag){
         if (window.innerWidth > 700) {
-            // TODO animate with CSS transitions https://repl.it/@TudorIlisoi/CSSTransitions
              $('canvas').animate({ marginTop: "-=450px", maxHeight: "450px" }, 3500);
              flag = false;
         }}
     })
 }
-
+// about us page
 function aboutUsButton(){
     $('#js-aboutUs').on('click', event =>{
         event.preventDefault();
@@ -143,7 +134,7 @@ function aboutUsButton(){
        `)
     })
 }
-
+//run all the functions
 function watchForm() {
     aboutUsButton();
     sliding();
