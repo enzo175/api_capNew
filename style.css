@@ -75,6 +75,7 @@ a {
     padding-top: 0px;
 }
 h1 {
+    padding-left:10px;
     text-shadow: 4px 4px 4px gray;
 }
 .container {
@@ -108,11 +109,18 @@ a:hover{
 #js-aboutUs:hover{
     cursor:pointer;
 }
+#ways-to-prevent {
+    margin-left:10px;
+}
 #ways-to-prevent, li{
     font-size: 18px;
 }
+h2{
+    margin-left:10px;
+}
 img {
-    width: 300px;
+    
+    width: 310px;
     height: 450px;
     border-radius: 10px 10px;
     border-style: ridge;
@@ -126,6 +134,7 @@ img {
         float: right;
     }
     img {
+        margin-left: 2em;
         width: 700px;
         height: 400px;
     }

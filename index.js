@@ -126,16 +126,21 @@ function aboutUsButton(){
         event.preventDefault();
         $('.js-whole-wrapper').empty();
         $('.js-whole-wrapper').append(`
+        <h1>About Us</h1>
         <section class="us"> <h2> This page is dedicated to keeping you informed on
         the latest Air quality information so you can always be in the know about 
         what is going in and out of your lungs. Always check the AQI levels
         before stepping out and remmeber to try and keep your air clean.</h2></section>\
-       <ul id="ways-to-prevent"> <h3>Ways to prevent air pollution</h3>
-       <li> Reduce the number of trips you take in your car. Walking and biking isn't so
-       bad, actually it's good for the environment's health and yours.</li>
-       <li> Keep your vechile's engines properly maintained at all times</li>
-       <li> Avoid buring Trash leaves or other materials</li> <br>
-       <img src="https://cff2.earth.com/uploads/2016/11/03135030/clean-air-pollution_1big_stokc.jpg" alt="unraveling clean air">`)
+        <h2>Ways to prevent air pollution</h2>
+       <ul id="ways-to-prevent"> 
+       <li>Reduce the number of trips you take in your car. Walking and biking isn't so
+       bad, actually it's good for the environment's health and yours</li>
+       <li>Keep your vechile's engines properly maintained at all times</li>
+       <li>Avoid buring Trash leaves or other materials</li> 
+       <li>Take good care of your wood stove or fireplace</li>
+       <li>Grow your own food, it is healthy for you and the environment</li> </ul>
+       <img src="https://cff2.earth.com/uploads/2016/11/03135030/clean-air-pollution_1big_stokc.jpg" alt="unraveling clean air">
+       `)
     })
 }
 
