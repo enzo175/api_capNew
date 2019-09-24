@@ -136,7 +136,7 @@ function aboutUsButton(){
        <li>Reduce the number of trips you take in your car. Walking and biking isn't so
        bad, actually it's good for the environment's health and yours</li>
        <li>Keep your vechile's engines properly maintained at all times</li>
-       <li>Avoid buring Trash leaves or other materials</li> 
+       <li>Avoid buring trash leaves or other materials</li> 
        <li>Take good care of your wood stove or fireplace</li>
        <li>Grow your own food, it is healthy for you and the environment</li> </ul>
        <img src="https://cff2.earth.com/uploads/2016/11/03135030/clean-air-pollution_1big_stokc.jpg" alt="unraveling clean air">
