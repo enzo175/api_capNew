@@ -1,6 +1,6 @@
 What’s In Your Air? 
 
-<img src="IMages/Screenshot.jpg">
+file:///Users/danielpali/Projects/api_cap/IMages/screenshot2.jpg
 
 
 
