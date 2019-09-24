@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -16,26 +16,34 @@
 <body>
   <header class="js-header">
     <ul id="navbar">
-      <li>Home page</li>
-      <li>Individual Particles</li>
+      <li> <a href="index.html">Home Page</a></li>
+      <li id="js-aboutUs"><a>About Us</a></li>
+      <li> <a target="_blank" href="https://www3.epa.gov/region1/airquality/pdfs/airqualityguideparticles.pdf">Click Me For A Detiled AQI Description</a></li>
     </ul>
   </header>
+  <main>
+  <div class="js-whole-wrapper">
     <section class='container'>
         <h1>What's In Your Air?</h1>
         <form id="js-form-aqi" class="search-form">
             <label id="search-label" for="airQuality">Check Your Air Quality Now<br> Enter A Zip Code:</label>
-            <input type="text" name="location" id="zip-code" pattern="[0-9]*" maxlength="5" minlength="5" value="90046" required>
+            <label for="main-form-button"><input type="text" label="main-form-button" name="location" id="zip-code" pattern="[0-9]*" maxlength="5" minlength="5" value="90046" required></label>
                 <button type="submit" id="findair-btn">Breathe</button>
         </form>
     </section>
-  <main>
     <div class="result-wrapper">
       <div id="js-aqiResults"></div>
       <div id="js-wordResponse"></div>
-      <div id="js-forecast"></div>
     </div>
     <div id="js-forecast"></div>
   <div id="js-chart" class="hidden"><canvas id="myChart" height="400" width="400"></canvas></div>
+  <!--<footer>
+    <ul class="for-footer">
+    <li>Powered By Weatherbit.io</li>
+    <li> <a target="_blank" href="https://www3.epa.gov/region1/airquality/pdfs/airqualityguideparticles.pdf">Click Me For A Detiled AQI Description</a></li>
+    </ul>
+  </footer>-->
+ </div>
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
   <script src="chart.js"></script>

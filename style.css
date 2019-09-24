@@ -93,11 +93,41 @@ h1 {
     padding-right: 20px;
     padding-top: 20px;
 }
+.us{
+    padding: 10px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+
+}
+#js-aboutUs:hover{
+    cursor:pointer;
+}
+#ways-to-prevent, li{
+    font-size: 18px;
+}
+img {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 10px;
+    border-style: ridge;
+    box-shadow: 10px 10px 10px gray;
+}
+
 @media screen and (min-width: 760px){
     #js-chart {
         width: 500px;
         padding-right: 50PX;
         float: right;
+    }
+    img {
+        width: 700px;
+        height: 400px;
     }
 }
 @media screen and (min-width: 1024px){
@@ -105,6 +135,10 @@ h1 {
         height: 600px;
         width: 600px;
         float: right;
+    }
+    img {
+        width: 1200px;
+        height: 600px;
     }
 
 }
