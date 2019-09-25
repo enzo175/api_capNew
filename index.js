@@ -102,11 +102,11 @@ function sliding() {
     $(".container").animate({ width: "250px" }, 2000)
     let flag = true;
     $('form').submit(event => {
-        $(".result-wrapper").animate({ width: "250px" }, 2000)
+        $(".result-wrapper").animate({ width: "240px" }, 2000)
         $('.hidden').fadeIn(2000)
         if (flag){
         if (window.innerWidth > 700) {
-             $('canvas').animate({ marginTop: "-=450px", maxHeight: "450px" }, 3500);
+             $('canvas').animate({ maxHeight: "450px" }, 3500);
              flag = false;
         }}
     })
