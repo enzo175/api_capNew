@@ -51,7 +51,7 @@ function displayResults(responseJson) {
             barIndex = 2
             $("#js-wordResponse").html("Unhealthy")
         }
-        else if (aqiNum >= 150, aqiNum < 200) {
+        else if (aqiNum >= 150, aqiNum < 200){
             barIndex = 3
             $("#js-wordResponse").html('Really Unhealthy')
         }
@@ -104,26 +104,16 @@ function sliding() {
     $('form').submit(event => {
         $(".result-wrapper").animate({ width: "250px" }, 2000)
         $('.hidden').fadeIn(2000)
-        if (flag ||true) {
-            if (window.innerWidth > 700) {
-                //  $('canvas').animate({ marginTop: "-450px", maxHeight: "450px" }, 3500);
-                $('#js-chart').removeClass('visible-chart')
-                window.setTimeout(() => {
-                    window.setTimeout(() => {
-                        window.requestAnimationFrame(() => {
-                            $('#js-chart').addClass('visible-chart')
-                        })
-                    }, 500);
-                }, 100)
-
-                flag = false;
-            }
-        }
+        if (flag){
+        if (window.innerWidth > 700) {
+             $('canvas').animate({ marginTop: "-=450px", maxHeight: "450px" }, 3500);
+             flag = false;
+        }}
     })
 }
 // about us page
-function aboutUsButton() {
-    $('#js-aboutUs').on('click', event => {
+function aboutUsButton(){
+    $('#js-aboutUs').on('click', event =>{
         event.preventDefault();
         $('.js-whole-wrapper').empty();
         $('.js-whole-wrapper').append(`
