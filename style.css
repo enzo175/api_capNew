@@ -1,42 +1,34 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     background: bisque;
     font-family: 'Oswald', sans-serif;
 }
-
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center
 }
-
 input, #findair-btn {
     width: 65px;
     margin-top: 10px;
 }
-
-#findair-btn {
-    background: grey;
+#findair-btn{
+    background:grey;
     box-shadow: 3px 3px 3px gray;
 }
-
 #findair-btn:hover {
-    text-shadow: 0px 0px 5px blue;
+   text-shadow: 0px 0px 5px blue;
 }
-
-#findDetailed-btn {
-    background: grey;
+#findDetailed-btn{
+    background:grey;
     box-shadow: 3px 3px 3px gray;
 }
-
-#findDetailed-btn:hover {
+#findDetailed-btn:hover{
     text-shadow: 0px 0px 5px blue;
 }
-
 #navbar {
     list-style: none;
     display: flex;
@@ -46,7 +38,6 @@ input, #findair-btn {
     color: white;
     margin: 0px;
 }
-
 a {
     color: inherit;
 }
@@ -58,7 +49,6 @@ a {
 #navbar li:hover {
     color: red;
 }
-
 #js-aqiResults, #js-wordResponse {
     display: flex;
     flex-direction: column;
@@ -66,7 +56,6 @@ a {
     align-items: center;
     font-size: 2em;
 }
-
 .result-wrapper {
     font-family: 'Saira Stencil One', cursive;
     border-top: 0px;
@@ -82,16 +71,13 @@ a {
     margin-right: 10px;
     text-shadow: 3px 3px 3px gray;
 }
-
 .result-wrapper {
     padding-top: 0px;
 }
-
 h1 {
-    padding-left: 10px;
+    padding-left:10px;
     text-shadow: 4px 4px 4px gray;
 }
-
 .container {
     margin-left: 25px;
     padding: 5px;
@@ -100,48 +86,40 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-
 .hidden {
-    /* display: none;
+    display: none;
     height: 100%;
     width: 100%;
     float: right;
     padding-right: 20px;
     padding-top: 20px;
-    */
-} 
-
-.us {
+}
+.us{
     padding: 10px;
     margin-bottom: 35px;
     text-align: center;
 }
-
 a {
     text-decoration: none;
 }
-
-a:hover {
+a:hover{
     color: red;
-}
 
-#js-aboutUs:hover {
-    cursor: pointer;
 }
-
+#js-aboutUs:hover{
+    cursor:pointer;
+}
 #ways-to-prevent {
-    margin-left: 10px;
+    margin-left:10px;
 }
-
-#ways-to-prevent, li {
+#ways-to-prevent, li{
     font-size: 18px;
 }
-
-h2 {
-    margin-left: 10px;
+h2{
+    margin-left:10px;
 }
-
 img {
+    
     width: 310px;
     height: 450px;
     border-radius: 10px 10px;
@@ -149,16 +127,7 @@ img {
     box-shadow: 10px 10px 10px gray;
 }
 
-#js-chart {
-    transition: all 1s;
-    margin-top: 2000px;
-}
-
-#js-chart.visible-chart {
-    margin-top: 0px;
-}
-
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 760px){
     #js-chart {
         width: 500px;
         padding-right: 50PX;
@@ -169,10 +138,8 @@ img {
         width: 700px;
         height: 400px;
     }
-    #myChart {}
 }
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px){
     .hidden {
         height: 600px;
         width: 600px;
@@ -182,4 +149,5 @@ img {
         width: 1200px;
         height: 600px;
     }
+
 }
