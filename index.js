@@ -41,7 +41,7 @@ function displayResults(responseJson) {
         $("#js-wordResponse").empty()
         if (aqiNum <= 50) {
             barIndex = 0
-            $("#js-wordResponse").html("Good");
+            $("#js-wordResponse").html("Amazing");
 
         } else if (aqiNum >= 51, aqiNum < 100) {
             barIndex = 1
