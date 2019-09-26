@@ -26,12 +26,12 @@
     <section class='container'>
         <h1>What's In Your Air?</h1>
         <form id="js-form-aqi" class="search-form">
-            <label id="search-label" for="airQuality">Check Your Air Quality Now<br> Enter A Valid Zip Code:</label>
-            <label for="main-form-button"><input type="text" label="main-form-button" name="location" id="zip-code" pattern="[0-9]*" maxlength="5" minlength="5" value="90046" required></label>
+            <label id="search-label" for="js-form-aqi">Check Your Air Quality Now<br> Enter A Valid Zip Code:</label>
+            <label for="js-form-aqi"><input type="text" name="location" id="zip-code" pattern="[0-9]*" maxlength="5" minlength="5" value="90046" required></label>
                 <button type="submit" id="findair-btn">Breathe</button>
         </form>
     </section>
-  <section class="flexin">
+  <div class="flexin">
     <div class="result-wrapper">
       <div id="js-aqiResults"></div>
       <div id="js-wordResponse"></div>
@@ -39,7 +39,7 @@
     </div>
     <div id="js-forecast"></div>
    <div id="js-chart" class="hidden"><canvas id="myChart" height="400" width="400"></canvas></div>
-  </section>
+  </div>
  </div>
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
